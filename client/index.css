@@ -1,0 +1,520 @@
+@font-face {
+    font-family: "myfont";
+    src: url(./static/GeneralSans-Medium.otf);
+}
+
+body {
+    color: white; 
+    background: #000; 
+    font-family: "myfont";
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.page1{
+    width: 100vw; 
+    height: 100vh;
+}
+.nav {
+    color: white; 
+    opacity: 0.7; 
+    font-family: "myfont"; 
+    padding: 2rem;  
+    display: flex;  
+    align-items: center; 
+    justify-content: space-between;
+} 
+
+.nav > div:first-child {
+    flex-grow: 1;
+}
+
+.navcomp {
+    display: flex; 
+    gap: 1rem; 
+}
+
+.navcomp a{  
+    color: white; 
+    border: none;
+    cursor: pointer;  
+    font-size: 0.9rem; 
+    font-weight: lighter;
+
+} 
+.name{
+    padding-top: 2rem;  
+    display: flex; 
+    gap:4rem;
+
+}  
+
+.codeimage{ 
+        padding-left: 17rem; 
+        padding-top: 1rem;
+} 
+.codeimage i{
+    font-size: 20rem; 
+    opacity: 0.5;
+}
+.name h1{
+    opacity: 0.7; 
+    font-size: 6rem; 
+    padding-left:7rem ; 
+    
+} 
+.social{
+    display:flex ; 
+
+} 
+i{
+  opacity: 0.7;
+}
+ 
+a{
+    color: whitesmoke; 
+    text-decoration: none;
+}  
+.page2{
+    width: 100vw; 
+    height: 100vh; 
+    display: flex;
+    gap:10rem;  
+    padding-top: 5rem;
+    
+    padding-left: 20%;
+}
+.image{
+    height: 250px; 
+    width: 250px; 
+    border-radius:100%; 
+    object-fit: cover;
+} 
+.para{
+    opacity: 0.6; 
+    width: 40%; 
+    line-height: 30px;
+} 
+.page3{
+    width:100vw ; 
+    height: 100vh ;
+} 
+ 
+.page3 h1{
+    padding-left: 2rem; 
+    font-size: 4rem; 
+    border-bottom: 2rem; 
+    border-color: wheat; 
+    opacity: 0.5;
+} 
+.left-aligned-hr {
+    border: none;
+    border-top: 1px solid #cccccc85; 
+    margin: 0;  
+    margin-left: 2rem;
+    
+    width: 50%;
+}  
+.projectcover{
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    gap:2rem ; 
+}
+
+.project {
+    width: 20%;
+    height: 70%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    overflow: hidden; 
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.project p{
+    font-size: 0.9rem; 
+    font-weight: lighter;
+    opacity: 0.6; 
+    
+}
+.project img{
+    width: 100%; 
+    height: 40%; 
+    object-fit: cover; 
+    overflow: hidden;
+}   
+
+.page4{
+    width: 100vw; 
+    height: 100vh;  
+    display: flex; 
+    flex-direction: column; 
+    gap:2rem; 
+    align-items: center; 
+    
+} 
+.page4 h1{ 
+font-size: 4rem; 
+opacity: 0.6; 
+margin-bottom: 0;
+}
+ 
+.page4 input {
+    width: 30%; 
+    padding-top: 1.5rem; 
+    text-align: left;   
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;  
+    border-radius: 0.5rem; 
+    background-color: rgba(255, 255, 255, 0.211); 
+    opacity: 1; 
+   outline: none; 
+ color: white;
+   border: none;
+  
+
+ 
+} 
+#cursor{
+    height: 250px; 
+    width: 250px; 
+    border-radius: 50%; 
+    background-color: bisque;  
+    opacity: 0.4;  
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0); 
+ }
+ 
+
+
+.para2{ 
+    width: 50%;
+    text-align: center;
+    opacity: 0.6;
+} 
+.buton{ 
+    margin-top: 1rem;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;  
+    padding-left: 2rem; 
+    padding-right: 3rem;  
+    border-radius: 0.5rem; 
+    color:black;    
+    opacity: 0.6; 
+    cursor: pointer;
+    font-weight: bold; 
+  
+  background-color: black;
+    text-align: center;
+    background: whitesmoke;
+} 
+button{ 
+    background: #000; 
+    color: green;
+}  
+.social{ 
+    width: 100vw; 
+    height: 20vh;
+    display: flex ; 
+    align-items: center;
+    justify-content: center; 
+    gap:2rem ; 
+} 
+i{
+    font-size: 2rem;
+} 
+.para3{
+    text-align: center;
+    padding-bottom: 2rem; 
+    height: 4vh;
+} 
+.pag1footer{
+    padding-left: 2rem; 
+    margin-top:6rem; 
+    opacity: 0.7; 
+    display: flex; 
+    justify-content: space-between; 
+    padding-right: 3rem;
+} 
+.skills{
+    width: 100vw; 
+    height: 100vh;  
+    /* background: white; */ 
+   
+
+}    
+.skills h1{
+    padding-left: 2rem;  
+    font-size: 4rem;
+    opacity: 0.6;
+    margin-bottom: none;
+
+}
+ .skillscover{
+    padding-top: 10rem;
+    display: flex ; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    gap:5rem;
+ }
+.skills hr{
+    border: none;
+border-top: 1px solid #cccccc85; 
+margin: 0;  
+margin-left: 2rem;
+
+width: 50%;
+}
+.skillcomp{ 
+     
+
+    display: flex; 
+    flex-direction: column; 
+    gap:0.4rem; 
+    align-items: center; 
+    opacity: 0.7;
+} 
+.skills i{
+    font-size: 4rem;
+} 
+.skills img{
+    border-radius:100px; 
+    background: #000; 
+    height: 60px ; 
+
+} 
+.others{
+    margin-top: 100px; 
+    padding-left: 0.5rem; 
+    display: flex; 
+    align-items: center; 
+    gap:2rem ; 
+}
+.others h1{
+    font-size: 1rem; 
+    color: white; 
+    opacity: 0.9;
+}  
+
+.extraskill{
+    display: flex ; 
+gap:2rem ;
+} 
+.nameside { 
+    margin-top: 0; 
+    padding-top: 0;
+        padding-left:70%; 
+        font-size: 1.5rem;
+        opacity: 0.3;
+} 
+.forms{
+    display: flex; 
+    flex-direction:column ; 
+    align-items: center; 
+    justify-content: center;  
+    gap:2.5rem;
+    width: 100%;
+}
+ 
+
+@media (max-width: 767px) { 
+   .name{ 
+    display: flex; 
+    gap: 1rem;
+   }  
+   .codeimage{
+    padding-left: 4rem; 
+    padding-top: 4rem;
+   }
+   .codeimage i{
+        font-size: 6rem;
+   }
+    .nameside{
+        font-size: 1rem; 
+        opacity: 0.4; 
+        padding-left: 58%;
+    }  
+    .skills{
+        width: 100%; 
+        height: 100%;
+    }   
+    .skills hr{
+        width: 70%;
+    }
+    .others{ 
+        padding: 3rem;
+        flex-direction: column;
+    }
+    .extraskill{
+       flex-wrap: wrap;
+    }
+    .skillscover{
+        flex-wrap: wrap;
+    }
+   .page1{
+    width:100vw ; 
+    height: 100vh ; 
+   } 
+   .page1 h1{ 
+    padding-top: 1rem;
+    font-size: 3rem; 
+    padding-left: 1rem; 
+
+   } 
+   .pag1footer{
+    font-size: 0.6rem;
+   } 
+   .page2{
+    width: 100vw; 
+    height: 100vh; 
+    position: relative;
+   }
+   .page2 img{
+width: 140px; 
+height: 140px;
+   } 
+   .page2 .imagecover{
+        margin-left: 0.3rem;  
+        position: absolute; 
+  left: 1rem;
+       margin-top: 0; 
+       gap:0.4rem;  
+      width: 5vw;
+       padding-left:none;  
+       margin-left:none ;
+
+   }  
+   .page2 h3{
+    position: absolute; 
+    left: 11rem;
+   }
+   .page2 .para{ 
+    position:absolute;
+    left:11rem; 
+    top:7rem;
+width: 50%;
+   }  
+   .page3{
+    width: 100%; 
+    height: 100%;
+   }
+   .page3 .projectcover{ 
+    display: flex;
+    flex-direction: column; 
+
+   } 
+   .page3 .project{
+    width: 80vw;
+   }  
+   .page3 hr{
+    width: 70%;
+   }
+   .page3 a{
+    padding-left:1rem ;
+   } 
+   .page4 h1{
+        font-size: 4rem; 
+        margin-top: 4rem;
+   }
+    .page4 .para2{
+        width: 90%; 
+        padding-left: 2rem;
+    } 
+    .page4 input{
+        width: 50%;
+    }
+}
+ 
+@media (min-width: 768px) and (max-width: 1100px) {   
+    .codeimage{
+        padding-left: 10rem ; 
+        padding-top: 2rem;
+    }
+    .codeimage i{
+        font-size: 10rem;
+    }
+    .nameside{
+        padding-left: 58%;
+    }
+    .skillscover{
+        flex-wrap: wrap;
+    }   
+
+        .others{
+            width: 100%; 
+            margin-bottom: 3rem;
+        }
+    .page1 h1{
+        padding-left: 2rem; 
+        font-size: 4rem;
+    } 
+    .page2{
+        width: 100vw; 
+        height: 100vh;  
+        position: relative; 
+       
+        
+    } 
+    .page2 img{ 
+       
+        height: 200px;  
+        width: 200px; 
+        display: flex; 
+        position: absolute;
+        gap:2rem; 
+        left: 4rem;
+
+    } 
+    .page2 .imagecover{
+        padding-left: none;
+    } 
+    .page2 .think{
+        width: 100vw;
+    }
+    .page2 .para{ 
+        
+        width: 60%;
+    }  
+    .page3{
+        width: 100%; 
+        height: 100%;
+    }
+    .page3 .projectcover{
+        display: flex;  
+        flex-direction: column;
+    } 
+    .page3 .project{ 
+        width: 80%;
+    }  
+    .page3 hr{
+            width: 70%;
+    } 
+    .page3 a{
+        padding-left: 1rem;
+    } 
+    .page4 h1 {
+            margin-top: 10rem;
+    }
+    .page4 .para2 {
+        padding-left: 1rem; 
+        width: 90%;
+    }  
+
+    .page4 input{
+        width: 60%;
+    }
+} 
+
+@media (min-width: 1100px) and (max-width: 1300px){
+    .codeimage i{ 
+        font-size: 13rem;
+
+    } 
+    .codeimage{
+        padding-left: 6rem ; 
+        padding-top: 4rem;
+    }
+}
